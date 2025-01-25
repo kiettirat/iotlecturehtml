@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Form tag(block tag) -->
+    <!-- รายละเอียดของฟอร์ม เป็น inline tag -->
+     <form action="" method=""enctype="multipart/form-data">
+         <label for="ป้อนข้อความ">Name</label>
+         <input type="text" id="name =" placeholder="ป้อนข้อความ">
+         <br><br>
+         <label for="ป้อนตัวเลข"></label>
+         <input type="number" name="" id="" placeholder="ไม่ต่ำกว่า 6 ตัว">
+         <br><br>
+         <label for="ป้อนรหัสผ่าน"></label>
+         <input type="password" name="" id="" placeholder="ต้องมีอย่างน้่อย 8ตัว">
+         <br><br>
+         <label for="เลือกอีเมล"></label>
+         <input type="email" name="" id="" placeholder="ต้องมี@">
+         <br><br>
+         <label for="">เลือกคำหน้านาม</label>
+          <input type="radio" name="title" id="" value="mr"> นาย
+          <input type="radio" name="title" id="" checked value="ms"> นาง 
+          <input type="radio" name="title" id="" value="miss"> นางสาว
+          <input type="radio" name="title" id="" value="boy"> ด.ช.
+          <input type="radio" name="title" id="" value="girl"> ด.ญ.
+          <br><br>
+          <label for="">จังหวัด</label>
+          <select name="" id="">
+          <option value="">กรุงเทพ</option>
+          <option value="">นนทบุรี</option>
+          <option value="">ปทุมธานี</option>
+          <option value="">สมุทรปราการ</option>          
+         </select>
+         <br><br>
+         <label for="">อาหารรที่ชอบ</label>
+         <input type="checkbox" name="" id="" value="ต้มยํา"> ต้มยํา
+         <input type="checkbox" name="" id="" value="ข้าวผัด"> ข้าวผัด
+         <input type="checkbox" name="" id="" value="ข้าวผัด"> ข้าวผัด
+         <input type="checkbox" name="" id="" value="ข้าวผัด"> ข้าวผัด
+         <br><br>
+         <label for="">เลือกวันที่</label>
+         <input type="date" name="" id="">
+         <br><br>
+         <label for="">เลือกเวลา</label>
+         <input type="time" name="" id="">
+         <br><br>
+         <label for="">เลือกวันและเวลา</label>
+         <input type="datetime-local" name="" id="">
+         <br><br>
+         <label for="">เลือกไฟล์</label>
+         <input type="file" name="" id=""accept="image/*">
+         <!-- *.jpg *.png -->
+          <br><br>
+          <input type="hidden" name="std-type" id="" value="ปกติ">
+        <br><br>
+         <input type="submit" value="ตกลง">
+         <input type="reset" value="ยกเลิก">
+         <button>ลงทะเบียน</button>
+     </form>
+</body>
+</html>
